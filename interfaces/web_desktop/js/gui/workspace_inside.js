@@ -590,7 +590,7 @@ var WorkspaceInside = {
 				{
 					clearInterval( Workspace.httpCheckConnectionInterval );
 				}
-				Workspace.httpCheckConnectionInterval = setInterval( 'Workspace.checkServerConnectionHTTP()', 3000 );
+				Workspace.httpCheckConnectionInterval = setInterval( 'Workspace.checkServerConnectionHTTP()', 6000 );
 			}
 			else if( e.type == 'ping' )
 			{
