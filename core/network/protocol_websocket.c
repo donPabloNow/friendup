@@ -232,13 +232,6 @@ int WebsocketWrite( UserSessionWebsocket *wsi, unsigned char *msgptr, int msglen
 		return 0;
 	}
 	//rite: clwsc_InUseCounter: %d msg: %s wsiptr %p\n", wsi->wusc_Data->wsc_InUseCounter, msgptr, wsi->wusc_Data->wsc_Wsi );
-	/*
-	if( FRIEND_MUTEX_LOCK( &(cl->wsc_Mutex) ) == 0 )
-	{
-		
-		FRIEND_MUTEX_UNLOCK( &(cl->wsc_Mutex) );
-	}
-	*/
 	
 	if( msglen > MAX_SIZE_WS_MESSAGE ) // message is too big, we must split data into chunks
 	{
@@ -301,7 +294,6 @@ int WebsocketWrite( UserSessionWebsocket *wsi, unsigned char *msgptr, int msglen
 							en->fq_Size = queueMsgLen;
 							en->fq_Priority = 3;	// default priority
 				
-							//DEBUG("FQPush: %p\n 
 							FQPushFIFO( &(wsi->wusc_Data->wsc_MsgQueue), en );
 
 						// callback writeable was here
@@ -1023,7 +1015,7 @@ int FC_Callback( struct lws *wsi, enum lws_callback_reasons reason, void *user, 
 			
 			FQEntry *e = NULL;
 			//while( TRUE )
-			//{
+			{
 				FRIEND_MUTEX_LOCK( &(fcd->wsc_Mutex) );
 				FQueue *q = &(fcd->wsc_MsgQueue);
 				if( ( e = FQPop( q ) ) != NULL )
@@ -1049,10 +1041,10 @@ int FC_Callback( struct lws *wsi, enum lws_callback_reasons reason, void *user, 
 					FRIEND_MUTEX_UNLOCK( &(fcd->wsc_Mutex) );
 					//break;
 				}
-			//}
+			}
 			DEBUG("WS Writable END, wsi ptr %p fcwsptr %p\n", wsi, fcd );
 			
-			FLUSH_QUEUE();
+			//FLUSH_QUEUE();
 			
 			break;
 		
