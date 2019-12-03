@@ -861,6 +861,24 @@ int FC_Callback( struct lws *wsi, enum lws_callback_reasons reason, void *user, 
 	
 	switch( reason )
 	{
+		case LWS_CALLBACK_RECEIVE_PONG:
+			
+			FERROR("\n\n\PONG!!!!\n\n\n\n");
+			if( FRIEND_MUTEX_LOCK( &(fcd->wsc_Mutex) ) == 0 )
+			{
+				fcd->wsc_InUseCounter++;
+
+				UserSession *ses = fcd->wsc_UserSession;
+				if( ses != NULL )
+				{
+					ses->us_LoggedTime = time( NULL );
+				}
+				fcd->wsc_InUseCounter--;
+				FRIEND_MUTEX_UNLOCK( &(fcd->wsc_Mutex) );
+			}
+			
+			return 0;
+		
 		case LWS_CALLBACK_ESTABLISHED:
 			pthread_mutex_init( &(fcd->wsc_Mutex), NULL );
 		
