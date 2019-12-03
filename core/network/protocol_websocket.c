@@ -967,6 +967,13 @@ int FC_Callback( struct lws *wsi, enum lws_callback_reasons reason, void *user, 
 				FRIEND_MUTEX_LOCK( &(fcd->wsc_Mutex) );
 				fcd->wsc_LastPingTime = time( NULL );
 				DEBUG("\t\t\t\t\tRECEIVE->%d\n", fcd->wsc_InUseCounter );
+				
+				UserSession *ses = fcd->wsc_UserSession;
+				if( ses != NULL )
+				{
+					ses->us_LoggedTime = time( NULL );
+				}
+				
 				FRIEND_MUTEX_UNLOCK( &(fcd->wsc_Mutex) );
 				
 				const size_t remaining = lws_remaining_packet_payload( wsi );
