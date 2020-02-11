@@ -1856,7 +1856,7 @@ Http *FSMWebRequest( void *m, char **urlpath, Http *request, UserSession *logged
 											}
 											else	// cannot open file to write
 											{
-												closeError = 1000;
+												closeError = DICT_CANNOT_OPEN_DESTINATION_FILE;
 											}
 											
 											DEBUG( "[FSMWebRequest] Wrote %lu bytes. Read: %lu. Read file pointer %p. Write file pointer %p.\n", written, readall, rfp, wfp );
@@ -1865,7 +1865,7 @@ Http *FSMWebRequest( void *m, char **urlpath, Http *request, UserSession *logged
 										}
 										else
 										{
-											closeError = 2000;
+											closeError = DICT_CANNOT_OPEN_SOURCE_FILE;
 										}
 								
 										char tmp[ 128 ];
