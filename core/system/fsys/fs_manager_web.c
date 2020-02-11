@@ -1793,11 +1793,14 @@ Http *FSMWebRequest( void *m, char **urlpath, Http *request, UserSession *logged
 										File *rfp = (File *)actFS->FileOpen( actDev, path, "rb" );
 										int closeError = 0;
 										
+										DEBUG("Readfp %p\n", rfp );
+										
 										if( rfp != NULL )
 										{
 											dstrootf->f_SessionIDPTR = loggedSession->us_User->u_MainSessionID;
 											
 											File *wfp = (File *)dsthand->FileOpen( dstrootf, dstpath, "w+" );
+											DEBUG("Writefp %p\n", wfp );
 											
 											if( wfp != NULL )
 											{
@@ -1851,10 +1854,18 @@ Http *FSMWebRequest( void *m, char **urlpath, Http *request, UserSession *logged
 												}
 												closeError = dsthand->FileClose( dstrootf, wfp );
 											}
+											else	// cannot open file to write
+											{
+												closeError = 1000;
+											}
 											
 											DEBUG( "[FSMWebRequest] Wrote %lu bytes. Read: %lu. Read file pointer %p. Write file pointer %p.\n", written, readall, rfp, wfp );
 											
 											actFS->FileClose( actDev, rfp );
+										}
+										else
+										{
+											closeError = 2000;
 										}
 								
 										char tmp[ 128 ];
@@ -1900,6 +1911,9 @@ Http *FSMWebRequest( void *m, char **urlpath, Http *request, UserSession *logged
 									int len = 512;
 									len += strlen( topath );
 									char *command = FMalloc( len );
+									
+									DEBUG("Call module: %s\n", command );
+									
 									if( command != NULL )
 									{
 										snprintf( command, len, "command=thumbnaildelete&path=%s&sessionid=%s", topath, loggedSession->us_SessionID );
