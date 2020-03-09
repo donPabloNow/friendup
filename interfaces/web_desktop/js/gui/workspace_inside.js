@@ -16,6 +16,7 @@ var WorkspaceInside = {
 	// We only initialize once
 	insideInitialized: false,
 	readyToRun: false,
+	directWebsocketTried: false,
 	// Onready functions
 	onReadyList: [],
 	// Switch to workspace
@@ -498,6 +499,23 @@ var WorkspaceInside = {
 		if( Workspace.readyToRun ) return Workspace.websocketState;
 		return "false";
 	},
+	checkWebsocket: function()
+	{
+		if( !Workspace.checkWebsocketCounter ) Workspace.checkWebsocketCounter = 0;
+		
+		Workspace.checkWebsocketCounter++
+
+
+		console.log('Checking in on our Websocket for the ' + Workspace.checkWebsocketCounter + ' time... ');
+		console.log( Workspace.websocketState );
+		
+		if( Workspace.websocketState == 'connecting' )
+		{
+			console.log('still connecting... dont even bother to do anything about it....' + Workspace.checkWebsocketCounter);
+			console.log( Workspace.conn );
+			setTimeout(Workspace.checkWebsocket, 2000);
+		}
+	},
 	initWebSocket: function()
 	{	
 		// We're already open
@@ -525,11 +543,16 @@ var WorkspaceInside = {
 			onend  : onEnd,
 		};
 
-        //we assume we are being proxied - set the websocket to use the same port as we do
-        if( document.location.port == '')
+        //we assume we are being proxied - set the websocket to use the same port as we do / websocket port
+        if( document.location.port == '' && Workspace.directWebsocketTried)
         {
             conf.wsPort = ( document.location.protocol == 'https:' ? 443 : 80 )
             //console.log('webproxy set to be tunneled as well.');
+        }
+        else
+        {
+	        Workspace.directWebsocketTried = true;
+	        conf.wsPort = 6500;
         }
 		
 		// Clean up previous
@@ -559,7 +582,12 @@ var WorkspaceInside = {
 			return;
 		}
 		
+
+		
 		this.conn = new FriendConnection( conf );
+
+		setTimeout(Workspace.checkWebsocket, 2000);
+
 		this.conn.on( 'sasid-request', handleSASRequest ); // Shared Application Session
 		this.conn.on( 'server-notice', handleServerNotice );
 		this.conn.on( 'server-msg', handleServerMessage );
