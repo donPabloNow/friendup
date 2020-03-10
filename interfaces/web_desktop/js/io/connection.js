@@ -20,6 +20,8 @@ FriendConnection = function( conf )
 	self.protocol = '';
 	self.host = '';
 	self.wsPort = ( parseInt( conf.wsPort ) > 0 ? parseInt( conf.wsPort ) : 6500 );
+	self.defaultTried = false;
+	self.defaultPort = 6500;
 	self.reqPort = null;
 	self.ws = null;
 	
@@ -160,16 +162,25 @@ FriendConnection.prototype.connectWebSocket = function()
 		self.releaseWebSocket();
 	
 	var url = self.wsProtocol + self.host;
+	var fallBackURL = false;
+
 	if ( self.wsPort )
 		url += ':' + self.wsPort;
 
-
 	url += '/fcws';
 
-console.log("Connect : " + url );
+	if( self.defaultPort != self.wsPort )
+	{
+		fallBackURL = url;
+		url = self.wsProtocol + self.host + ':' + self.defaultPort;
+	}
+	
+
+	console.log("Connect : " + url );
 
 	var conf = {
 		url : url,
+		fallbackurl: fallBackURL,
 		sessionId : Workspace.sessionId,
 		onmessage : onMessage,
 		onstate : onState,

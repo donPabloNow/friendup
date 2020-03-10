@@ -16,7 +16,6 @@ var WorkspaceInside = {
 	// We only initialize once
 	insideInitialized: false,
 	readyToRun: false,
-	directWebsocketTried: false,
 	// Onready functions
 	onReadyList: [],
 	// Switch to workspace
@@ -544,15 +543,10 @@ var WorkspaceInside = {
 		};
 
         //we assume we are being proxied - set the websocket to use the same port as we do / websocket port
-        if( document.location.port == '' && Workspace.directWebsocketTried)
+        if( document.location.port == '')
         {
             conf.wsPort = ( document.location.protocol == 'https:' ? 443 : 80 )
             //console.log('webproxy set to be tunneled as well.');
-        }
-        else
-        {
-	        Workspace.directWebsocketTried = true;
-	        conf.wsPort = 6500;
         }
 		
 		// Clean up previous

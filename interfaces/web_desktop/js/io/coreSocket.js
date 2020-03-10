@@ -25,6 +25,7 @@ FriendWebSocket = function( conf )
 	self.onmessage = conf.onmessage;
 	self.onstate = conf.onstate;
 	self.onend = conf.onend;
+	self.fallbackurl = conf.fallbackurl;
 	
 	// PROPERTIES USEFUL TO PUBLIC
 	self.ready = false;
@@ -59,6 +60,8 @@ FriendWebSocket = function( conf )
 		max: 8
 	}; // random in range, makes sure not all the sockets
 	   // in the world reconnect at the same time
+	
+	if( self.fallbackurl ) self.fallbacktried = false;
 	
 	self.init();
 }
@@ -150,6 +153,20 @@ FriendWebSocket.prototype.connect = function()
 		return;
 	}
 	
+	//try between these two on errors...
+	if( self.state && self.state.type == 'error' && self.fallbackurl && self.fallbacktried == false )
+	{
+		self.fallbacktried = true;
+		self.defaulturl = self.url;
+		self.url = self.fallbackurl;
+	}
+	else if( self.state && self.state.type == 'error' && self.fallbackurl && self.fallbacktried && self.defaulturl )
+	{
+		self.url = self.defaulturl;
+		self.fallbacktried = false;
+	}
+	
+	console.log( 'our state before connecting...', self.state );
 	self.setState( 'connecting' );
 	
 	try
@@ -158,6 +175,7 @@ FriendWebSocket.prototype.connect = function()
 		{
 			self.cleanup();
 		}
+		
 		try
 		{
 			self.ws = new window.WebSocket( self.url, 'FC-protocol' );
