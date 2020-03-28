@@ -8065,6 +8065,8 @@ GuiDesklet = function()
 		var self = this;
 		self.id = conf.sasid || null;
 		self.sessiontype = conf.sessiontype || null;
+		self.forceid = conf.forceid || null;
+
 		self.onevent = conf.onevent;
 		self.callback = callback;
 
@@ -8314,7 +8316,7 @@ GuiDesklet = function()
 
 		self.conn = new FConn();
 
-		if ( !self.id )
+		if ( !self.id || self.forceid )
 			self.isHost = true;
 
 		if ( self.isHost )
@@ -8335,18 +8337,19 @@ GuiDesklet = function()
 			},
 		};
 		if( self.sessiontype ) reg.data.type = self.sessiontype;
+		if( self.forceid ) reg.data.sasid = self.id;
 		
 		self.conn.request( reg, regBack );
 		function regBack( res ) {
-			if ( !res.SASID ) {
+			if ( !self.id && !res.SASID ) {
 				callback( false );
 				return;
 			}
-
+			
 			self.id = res.SASID;
+			self.conn.off( self.id );
 			self.conn.on( self.id, clientEvents );
 			callback( res );
-
 			function clientEvents( e ) { self.handleEvent( e ); }
 		}
 
