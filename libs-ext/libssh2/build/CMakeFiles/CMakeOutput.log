@@ -1,0 +1,848 @@
+The system is: Linux - 4.9.0-3-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: -fPIC
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c70f8/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c70f8.dir/build.make CMakeFiles/cmTC_c70f8.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_c70f8.dir/testCCompiler.c.o
+/usr/bin/cc   -fPIC    -o CMakeFiles/cmTC_c70f8.dir/testCCompiler.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/testCCompiler.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_c70f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c70f8.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC     -rdynamic CMakeFiles/cmTC_c70f8.dir/testCCompiler.c.o  -o cmTC_c70f8 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_08054/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_08054.dir/build.make CMakeFiles/cmTC_08054.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIC    -v -o CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) 
+COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o -version -fPIC -o /tmp/cc3IHaYc.s
+GNU C11 (Debian 6.3.0-18+deb9u1) version 6.3.0 20170516 (x86_64-linux-gnu)
+	compiled by GNU C version 6.3.0 20170516, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/6/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/6/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C11 (Debian 6.3.0-18+deb9u1) version 6.3.0 20170516 (x86_64-linux-gnu)
+	compiled by GNU C version 6.3.0 20170516, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.3, isl version 0.15
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b8e5d7f3c4236757ee0871869b8330f3
+COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o /tmp/cc3IHaYc.s
+GNU assembler version 2.28 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.28
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_08054
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08054.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC    -v -rdynamic CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o  -o cmTC_08054 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIC' '-v' '-rdynamic' '-o' 'cmTC_08054' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBmBo6b.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_08054 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fPIC' '-v' '-rdynamic' '-o' 'cmTC_08054' '-mtune=generic' '-march=x86-64'
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/6/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/6/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/6/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/6/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_08054/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_08054.dir/build.make CMakeFiles/cmTC_08054.dir/build]
+  ignore line: [make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)]
+  ignore line: [Building C object CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIC    -v -o CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/6/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o -version -fPIC -o /tmp/cc3IHaYc.s]
+  ignore line: [GNU C11 (Debian 6.3.0-18+deb9u1) version 6.3.0 20170516 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version 0.15]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/6/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/6/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/6/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Debian 6.3.0-18+deb9u1) version 6.3.0 20170516 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 6.3.0 20170516  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.3  isl version 0.15]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b8e5d7f3c4236757ee0871869b8330f3]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o /tmp/cc3IHaYc.s]
+  ignore line: [GNU assembler version 2.28 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.28]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)]
+  ignore line: [Linking C executable cmTC_08054]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08054.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)]
+  ignore line: [/usr/bin/cc -fPIC    -v -rdynamic CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o  -o cmTC_08054 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-18+deb9u1' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c ada c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170516 (Debian 6.3.0-18+deb9u1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-v' '-rdynamic' '-o' 'cmTC_08054' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBmBo6b.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_08054 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccBmBo6b.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_08054] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
+    arg [CMakeFiles/cmTC_08054.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_14145/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_14145.dir/build.make CMakeFiles/cmTC_14145.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_14145.dir/HAVE_UNISTD_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_14145.dir/HAVE_UNISTD_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_14145
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14145.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_14145.dir/HAVE_UNISTD_H.c.o  -o cmTC_14145 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8cb9b/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8cb9b.dir/build.make CMakeFiles/cmTC_8cb9b.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_8cb9b.dir/HAVE_INTTYPES_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_8cb9b.dir/HAVE_INTTYPES_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_8cb9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cb9b.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_8cb9b.dir/HAVE_INTTYPES_H.c.o  -o cmTC_8cb9b 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52c1d/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_52c1d.dir/build.make CMakeFiles/cmTC_52c1d.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_52c1d.dir/HAVE_STDLIB_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_52c1d.dir/HAVE_STDLIB_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_52c1d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52c1d.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_52c1d.dir/HAVE_STDLIB_H.c.o  -o cmTC_52c1d 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bd571/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bd571.dir/build.make CMakeFiles/cmTC_bd571.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_bd571.dir/HAVE_SYS_SELECT_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_bd571.dir/HAVE_SYS_SELECT_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SELECT_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_bd571
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd571.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_bd571.dir/HAVE_SYS_SELECT_H.c.o  -o cmTC_bd571 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_de4bf/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_de4bf.dir/build.make CMakeFiles/cmTC_de4bf.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_de4bf.dir/HAVE_SYS_UIO_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_de4bf.dir/HAVE_SYS_UIO_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UIO_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_de4bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de4bf.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_de4bf.dir/HAVE_SYS_UIO_H.c.o  -o cmTC_de4bf 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fe51c/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fe51c.dir/build.make CMakeFiles/cmTC_fe51c.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_fe51c.dir/HAVE_SYS_SOCKET_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_fe51c.dir/HAVE_SYS_SOCKET_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKET_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_fe51c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe51c.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_fe51c.dir/HAVE_SYS_SOCKET_H.c.o  -o cmTC_fe51c 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40cbb/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_40cbb.dir/build.make CMakeFiles/cmTC_40cbb.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_40cbb.dir/HAVE_SYS_IOCTL_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_40cbb.dir/HAVE_SYS_IOCTL_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_IOCTL_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_40cbb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40cbb.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_40cbb.dir/HAVE_SYS_IOCTL_H.c.o  -o cmTC_40cbb 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1a85/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e1a85.dir/build.make CMakeFiles/cmTC_e1a85.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_e1a85.dir/HAVE_SYS_TIME_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_e1a85.dir/HAVE_SYS_TIME_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_e1a85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1a85.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_e1a85.dir/HAVE_SYS_TIME_H.c.o  -o cmTC_e1a85 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/un.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b5607/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b5607.dir/build.make CMakeFiles/cmTC_b5607.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_b5607.dir/HAVE_SYS_UN_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_b5607.dir/HAVE_SYS_UN_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UN_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_b5607
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5607.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_b5607.dir/HAVE_SYS_UN_H.c.o  -o cmTC_b5607 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7060d/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7060d.dir/build.make CMakeFiles/cmTC_7060d.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_7060d.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_7060d.dir/CheckIncludeFile.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_7060d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7060d.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_7060d.dir/CheckIncludeFile.c.o  -o cmTC_7060d 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1c26b/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1c26b.dir/build.make CMakeFiles/cmTC_1c26b.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_1c26b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_1c26b.dir/CheckIncludeFile.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_1c26b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c26b.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_1c26b.dir/CheckIncludeFile.c.o  -o cmTC_1c26b 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40845/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_40845.dir/build.make CMakeFiles/cmTC_40845.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_40845.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_40845.dir/CheckIncludeFile.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_40845
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40845.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_40845.dir/CheckIncludeFile.c.o  -o cmTC_40845 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06282/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_06282.dir/build.make CMakeFiles/cmTC_06282.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_06282.dir/LONGLONG.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_06282.dir/LONGLONG.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckTypeSize/LONGLONG.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_06282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06282.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_06282.dir/LONGLONG.c.o  -o cmTC_06282 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_04af3/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_04af3.dir/build.make CMakeFiles/cmTC_04af3.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_04af3.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_04af3.dir/CheckSymbolExists.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_04af3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04af3.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_04af3.dir/CheckSymbolExists.c.o  -o cmTC_04af3 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d1ca/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0d1ca.dir/build.make CMakeFiles/cmTC_0d1ca.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_0d1ca.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_0d1ca.dir/CheckSymbolExists.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_0d1ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d1ca.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_0d1ca.dir/CheckSymbolExists.c.o  -o cmTC_0d1ca 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6b4ee/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6b4ee.dir/build.make CMakeFiles/cmTC_6b4ee.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_6b4ee.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_6b4ee.dir/CheckSymbolExists.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_6b4ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b4ee.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_6b4ee.dir/CheckSymbolExists.c.o  -o cmTC_6b4ee 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function poll exists passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_89392/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_89392.dir/build.make CMakeFiles/cmTC_89392.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_89392.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -Wall -DCHECK_FUNCTION_EXISTS=poll   -o CMakeFiles/cmTC_89392.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_89392
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89392.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall -DCHECK_FUNCTION_EXISTS=poll    -rdynamic CMakeFiles/cmTC_89392.dir/CheckFunctionExists.c.o  -o cmTC_89392 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df894/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_df894.dir/build.make CMakeFiles/cmTC_df894.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_df894.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -Wall -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles/cmTC_df894.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_df894
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df894.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall -DCHECK_FUNCTION_EXISTS=socket    -rdynamic CMakeFiles/cmTC_df894.dir/CheckFunctionExists.c.o  -o cmTC_df894 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52597/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_52597.dir/build.make CMakeFiles/cmTC_52597.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_52597.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -Wall -DCHECK_FUNCTION_EXISTS=select   -o CMakeFiles/cmTC_52597.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_52597
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52597.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall -DCHECK_FUNCTION_EXISTS=select    -rdynamic CMakeFiles/cmTC_52597.dir/CheckFunctionExists.c.o  -o cmTC_52597 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function inet_addr exists passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_26818/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_26818.dir/build.make CMakeFiles/cmTC_26818.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_26818.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fPIC -Wall -DCHECK_FUNCTION_EXISTS=inet_addr   -o CMakeFiles/cmTC_26818.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_26818
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26818.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall -DCHECK_FUNCTION_EXISTS=inet_addr    -rdynamic CMakeFiles/cmTC_26818.dir/CheckFunctionExists.c.o  -o cmTC_26818 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_O_NONBLOCK succeeded with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_24fcb/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_24fcb.dir/build.make CMakeFiles/cmTC_24fcb.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_24fcb.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -DHAVE_O_NONBLOCK   -o CMakeFiles/cmTC_24fcb.dir/src.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/src.c
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/src.c:24:17: warning: ‘flags’ is used uninitialized in this function [-Wuninitialized]
+     int flags = fcntl(socket, F_SETFL, flags | O_NONBLOCK);
+                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/src.c:24:9: warning: ‘socket’ is used uninitialized in this function [-Wuninitialized]
+     int flags = fcntl(socket, F_SETFL, flags | O_NONBLOCK);
+         ^~~~~
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_24fcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24fcb.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall -DHAVE_O_NONBLOCK    -rdynamic CMakeFiles/cmTC_24fcb.dir/src.c.o  -o cmTC_24fcb  /usr/lib/x86_64-linux-gnu/libgcrypt.so 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <unistd.h>
+#include <fcntl.h>
+
+#if defined(sun) || defined(__sun__) || defined(__SUNPRO_C) || defined(__SUNPRO_CC)
+# if defined(__SVR4) || defined(__srv4__)
+#  define PLATFORM_SOLARIS
+# else
+#  define PLATFORM_SUNOS4
+# endif
+#endif
+#if (defined(_AIX) || defined(__xlC__)) && !defined(_AIX41)
+# define PLATFORM_AIX_V3
+#endif
+
+#if defined(PLATFORM_SUNOS4) || defined(PLATFORM_AIX_V3) || defined(__BEOS__)
+#error "O_NONBLOCK does not work on this platform"
+#endif
+
+int main()
+{
+    int socket;
+    int flags = fcntl(socket, F_SETFL, flags | O_NONBLOCK);
+}
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f6c0f/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f6c0f.dir/build.make CMakeFiles/cmTC_f6c0f.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_f6c0f.dir/HAVE_ARPA_INET_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_f6c0f.dir/HAVE_ARPA_INET_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_ARPA_INET_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_f6c0f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6c0f.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_f6c0f.dir/HAVE_ARPA_INET_H.c.o  -o cmTC_f6c0f 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88bdd/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_88bdd.dir/build.make CMakeFiles/cmTC_88bdd.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_88bdd.dir/HAVE_NETINET_IN_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_88bdd.dir/HAVE_NETINET_IN_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_NETINET_IN_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_88bdd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88bdd.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_88bdd.dir/HAVE_NETINET_IN_H.c.o  -o cmTC_88bdd 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_068ff/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_068ff.dir/build.make CMakeFiles/cmTC_068ff.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_068ff.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_068ff.dir/CheckSymbolExists.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_068ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_068ff.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_068ff.dir/CheckSymbolExists.c.o  -o cmTC_068ff 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __func__ exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1bc76/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1bc76.dir/build.make CMakeFiles/cmTC_1bc76.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_1bc76.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_1bc76.dir/CheckSymbolExists.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_1bc76
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bc76.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_1bc76.dir/CheckSymbolExists.c.o  -o cmTC_1bc76 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __func__
+  return ((int*)(&__func__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __FUNCTION__ exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1488/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d1488.dir/build.make CMakeFiles/cmTC_d1488.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_d1488.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_d1488.dir/CheckSymbolExists.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_d1488
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1488.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_d1488.dir/CheckSymbolExists.c.o  -o cmTC_d1488 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __FUNCTION__
+  return ((int*)(&__FUNCTION__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d34d0/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d34d0.dir/build.make CMakeFiles/cmTC_d34d0.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_d34d0.dir/HAVE_SYS_PARAM_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_d34d0.dir/HAVE_SYS_PARAM_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_PARAM_H.c
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Linking C executable cmTC_d34d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d34d0.dir/link.txt --verbose=1
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+/usr/bin/cc -fPIC -Wall     -rdynamic CMakeFiles/cmTC_d34d0.dir/HAVE_SYS_PARAM_H.c.o  -o cmTC_d34d0 
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+

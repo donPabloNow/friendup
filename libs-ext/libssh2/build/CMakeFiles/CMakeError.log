@@ -1,0 +1,180 @@
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2dea5/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2dea5.dir/build.make CMakeFiles/cmTC_2dea5.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_2dea5.dir/HAVE_WINDOWS_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_2dea5.dir/HAVE_WINDOWS_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_WINDOWS_H.c:2:21: fatal error: windows.h: No such file or directory
+ #include <windows.h>
+                     ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTC_2dea5.dir/build.make:66: CMakeFiles/cmTC_2dea5.dir/HAVE_WINDOWS_H.c.o] Error 1
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: *** [Makefile:121: cmTC_2dea5/fast] Error 2
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if files ws2tcpip.h exist failed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_58f36/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_58f36.dir/build.make CMakeFiles/cmTC_58f36.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_58f36.dir/HAVE_WS2TCPIP_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_58f36.dir/HAVE_WS2TCPIP_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_WS2TCPIP_H.c:2:22: fatal error: ws2tcpip.h: No such file or directory
+ #include <ws2tcpip.h>
+                      ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTC_58f36.dir/build.make:66: CMakeFiles/cmTC_58f36.dir/HAVE_WS2TCPIP_H.c.o] Error 1
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: *** [Makefile:121: cmTC_58f36/fast] Error 2
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <ws2tcpip.h>
+
+
+int main(void){return 0;}
+
+Determining if files winsock2.h exist failed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_821ea/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_821ea.dir/build.make CMakeFiles/cmTC_821ea.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_821ea.dir/HAVE_WINSOCK2_H.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_821ea.dir/HAVE_WINSOCK2_H.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CheckIncludeFiles/HAVE_WINSOCK2_H.c:2:22: fatal error: winsock2.h: No such file or directory
+ #include <winsock2.h>
+                      ^
+compilation terminated.
+make[3]: *** [CMakeFiles/cmTC_821ea.dir/build.make:66: CMakeFiles/cmTC_821ea.dir/HAVE_WINSOCK2_H.c.o] Error 1
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: *** [Makefile:121: cmTC_821ea/fast] Error 2
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+Source:
+/* */
+#include <winsock2.h>
+
+
+int main(void){return 0;}
+
+Determining if the memset_s exist failed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_903b6/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_903b6.dir/build.make CMakeFiles/cmTC_903b6.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_903b6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_903b6.dir/CheckSymbolExists.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘memset_s’ undeclared (first use in this function)
+   return ((int*)(&memset_s))[argc];
+                   ^~~~~~~~
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[3]: *** [CMakeFiles/cmTC_903b6.dir/build.make:66: CMakeFiles/cmTC_903b6.dir/CheckSymbolExists.c.o] Error 1
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: *** [Makefile:121: cmTC_903b6/fast] Error 2
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset_s
+  return ((int*)(&memset_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _stricmp exist failed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_50838/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_50838.dir/build.make CMakeFiles/cmTC_50838.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_50838.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_50838.dir/CheckSymbolExists.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_stricmp’ undeclared (first use in this function)
+   return ((int*)(&_stricmp))[argc];
+                   ^~~~~~~~
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[3]: *** [CMakeFiles/cmTC_50838.dir/build.make:66: CMakeFiles/cmTC_50838.dir/CheckSymbolExists.c.o] Error 1
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: *** [Makefile:121: cmTC_50838/fast] Error 2
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _snprintf exist failed with the following output:
+Change Dir: /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e0670/fast && make[2]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e0670.dir/build.make CMakeFiles/cmTC_e0670.dir/build
+make[3]: Entering directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake: /usr/local/lib/libcurl.so.4: no version information available (required by /usr/bin/cmake)
+Building C object CMakeFiles/cmTC_e0670.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fPIC -Wall    -o CMakeFiles/cmTC_e0670.dir/CheckSymbolExists.c.o   -c /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_snprintf’ undeclared (first use in this function)
+   return ((int*)(&_snprintf))[argc];
+                   ^~~~~~~~~
+/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+make[3]: *** [CMakeFiles/cmTC_e0670.dir/build.make:66: CMakeFiles/cmTC_e0670.dir/CheckSymbolExists.c.o] Error 1
+make[3]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+make[2]: *** [Makefile:121: cmTC_e0670/fast] Error 2
+make[2]: Leaving directory '/home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stefkos/development/osfriend/friendup/libs-ext/libssh2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _snprintf
+  return ((int*)(&_snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
